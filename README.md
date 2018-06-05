@@ -4,7 +4,7 @@
 
 This *readme* is a non exhaustive chit-chat for some useful git command.
 
-* **Git commit** :  
+* **Git commit** :envelope::  
     *Usage :* ```git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
 	   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]
 	   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
@@ -17,13 +17,13 @@ This *readme* is a non exhaustive chit-chat for some useful git command.
     *Example :* ```git commit -am "This is a perfectly good commit."```  
     *Doc link :* [GitHub](https://git-scm.com/docs/git-commit)   
 
-* **Git push** :  
+* **Git push** :email::  
     *Usage :* ```git push  <REMOTENAME> <BRANCHNAME> ```  
     Allow to push commit made on a local branche (using ```git commit```) to a distant repository.  
     *Example :* ```git push windows gitHub_main```  
     *Doc link :* [GitHub](https://git-scm.com/docs/git-push)  
 	
-* **Git add** :  
+* **Git add** :page_with_curl::  
     *Usage :* ```git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
 	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
 	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
@@ -38,7 +38,7 @@ This *readme* is a non exhaustive chit-chat for some useful git command.
     *Doc link :* [GitHub](https://git-scm.com/docs/git-clean)  
 
 
-* **Git clean** :  
+* **Git clean** :bath::  
     *Usage :* ```git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​```  
     Allow to pull all the chnage from a distant repository. If no repository is specified, it will used the linked repository if anny (set using ```git push -u foo bar```).  
     Git pull is the same as doing ```git fetch``` the a ```git merge``` .  
