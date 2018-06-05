@@ -27,7 +27,7 @@ This *readme* is a non exhaustive chit-chat for some useful git command.
     *Usage :* ```git pull [options] [<repository> [<refspec>…​]]```  
     Allow to pull all the chnage from a distant repository. If no repository is specified, it will used the linked repository if anny (set using ```git push -u foo bar```).  
     Git pull is the same as doing ```git fetch``` the a ```git merge``` .  
-    *Example :* ```git pull```  
+    *Example :* ```git pull origin master```  
     *Doc link :* [GitHub](https://git-scm.com/docs/git-pull)  
 
 ![git_war](https://i.pinimg.com/564x/fa/9b/ba/fa9bba627b338331730168e13b70b935.jpg)
