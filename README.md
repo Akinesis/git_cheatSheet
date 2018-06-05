@@ -22,6 +22,15 @@ This *readme* is a non exhaustive chit-chat for some useful git command.
     Allow to push commit made on a local branche (using ```git commit```) to a distant repository.  
     *Example :* ```git push windows gitHub_main```  
     *Doc link :* [GitHub](https://git-scm.com/docs/git-push)  
+	
+* **Git add** :  
+    *Usage :* ```git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--] [<pathspec>…​]```  
+    Add files to the index for futur commit. Can be omitted if -a option is used in ``git commit``
+    *Example :* ```git add file.txt```  
+    *Doc link :* [GitHub](https://git-scm.com/docs/git-add)  
 
 * **Git pull** :  
     *Usage :* ```git pull [options] [<repository> [<refspec>…​]]```  
