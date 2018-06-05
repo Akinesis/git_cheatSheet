@@ -4,7 +4,7 @@
 
 This *readme* is a non exhaustive chit-chat for some useful git command.
 
-* **Git commit** :
+* **Git commit** :  
     *Usage :* ```git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
 	   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]
 	   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
@@ -30,3 +30,4 @@ This *readme* is a non exhaustive chit-chat for some useful git command.
     *Example :* ```git pull```  
     *Doc link :* [GitHub](https://git-scm.com/docs/git-pull)  
 
+![git_war](https://i.pinimg.com/564x/fa/9b/ba/fa9bba627b338331730168e13b70b935.jpg)
